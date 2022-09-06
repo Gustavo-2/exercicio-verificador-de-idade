@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Verificador de idade</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Verificador de idade</h1>
+      <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div>
-            <p>ano de nascimento:
-                <input type="number" name="txtano" id="txtano" min="o">
-            </p>
-            <p>sexo:
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">feminino</label>
-            </p>
-            <p>
-                <input type="button" value="verificar" onclick = "verificar()">
-            </p>
-            
-        </div>
-        
-        <div id="resultado">
-            Preencha os dados acima para ver o resultado!
-            
-        </div>
+      <div>
+        <p>
+          ano de nascimento:
+          <input type="number" name="txtano" id="txtano" min="o" />
+        </p>
+        <p>
+          sexo:
+          <input type="radio" name="radsex" id="mas" checked />
+          <label for="mas">masculino</label>
+          <input type="radio" name="radsex" id="fem" />
+          <label for="fem">feminino</label>
+        </p>
+        <p>
+          <input type="button" value="verificar" onclick="verificar()" />
+        </p>
+      </div>
 
+      <div id="resultado">Preencha os dados acima para ver o resultado!</div>
     </section>
     <footer>
-        <p>&copy; Curso em vídeo.</p>
+      <p>&copy; Curso em vídeo.</p>
     </footer>
     <script src="script.js"></script>
-    
-</body>
+  </body>
 </html>
